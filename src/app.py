@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 app.config[
     "SQLALCHEMY_DATABASE_URI"
-] = "postgresql://ye_vasylenko:tp9jXSaEPWVwXUCqQ5h5MluL@localhost:5432/unilime"
+] = "postgresql://user:password@host:5432/db_title"
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 app.config["JSON_AS_ASCII"] = False
 
